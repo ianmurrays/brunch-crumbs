@@ -27,3 +27,6 @@ tmp/
 
 # Generated docs.
 docs/
+
+# Public directory
+public/

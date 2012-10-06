@@ -5,5 +5,5 @@ module.exports = class HelloView extends Backbone.View
   template: require './templates/hello'
 
   render: ->
-    @$el.html @template
+    @$el.html @template.render()
     this

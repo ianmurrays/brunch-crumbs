@@ -8,7 +8,7 @@ C r u m b s  .     .
 Usage
 -----
 
-  brunch new <app> -s https://github.com/meleyal/brunch-crumbs
+  brunch new <app> -s https://github.com/ianmurrays/brunch-crumbs
 
 
 Features
