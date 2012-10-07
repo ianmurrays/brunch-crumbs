@@ -19,8 +19,8 @@ exports.config =
       defaultExtension: 'scss'
       joinTo: 'stylesheets/app.css'
       order:
-        before: ['vendor/styles/normalize.css']
-        after: ['vendor/styles/helpers.css']
+        before: ['vendor/styles/bootstrap.css']
+        after: ['vendor/styles/bootstrap-responsive.css']
     templates:
       defaultExtension: 'mustache'
       joinTo: 'javascripts/app.js'
