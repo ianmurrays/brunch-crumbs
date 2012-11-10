@@ -1,5 +1,10 @@
 module.exports = class View extends Backbone.View
   render: ->
-    @setElement @$el.children(1)
-    @setVariables?()
+    oldEl = @$el
+    newEl = $(@template.render())
+    
+    @setElement(newEl)
+    oldEl.replaceWith(newEl)
+    
+    @viewDidLoad?()
     this
